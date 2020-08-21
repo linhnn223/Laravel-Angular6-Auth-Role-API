@@ -10,75 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9686c6e6-45fc-4f7a-82f6-1823d96f9973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/_model/role.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/_model/user.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/_model/userRole.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add-roles/add-roles.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add-roles/add-roles.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add-roles/add-roles.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add-roles/add-roles.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/list/list.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/list/list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/list/list.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/list/list.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/role/role.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/role/role.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/role/role.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/role/role.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/admin/service/action.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/_guards/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/_helpers/error.interceptor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/_helpers/jwt.interceptor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/_models/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/_services/authentication.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/_services/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/_Model/routingRole.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/_guards/routing.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/hr/hr.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/hr/hr.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/hr/hr.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/hr/hr.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/it/it.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/it/it.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/it/it.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/it/it.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/sale/sale.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/sale/sale.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/sale/sale.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/sale/sale.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/routing/service/routing.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/RoutingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/RoutingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Model/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Model/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Model/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Model/Routings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Repository/AdminRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Repository/AdminRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Repository/RoutingRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Repository/RoutingRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2020_08_13_023102_create_routing_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2020_08_13_023102_create_routing_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2020_08_13_023135_create_routing_role_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2020_08_13_023135_create_routing_role_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/polyfills.ts" afterDir="false" />
-    </list>
+    <list default="true" id="9686c6e6-45fc-4f7a-82f6-1823d96f9973" name="Default Changelist" comment="update frontend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,8 +175,16 @@
       <workItem from="1597588612574" duration="29375000" />
       <workItem from="1597713349723" duration="23130000" />
       <workItem from="1597884913999" duration="28378000" />
-      <workItem from="1597971681419" duration="26143000" />
+      <workItem from="1597971681419" duration="26675000" />
     </task>
+    <task id="LOCAL-00001" summary="update fr">
+      <created>1598004245854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598004245854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +206,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/study" />
     </ignored-roots>
+    <MESSAGE value="update frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="update frontend" />
   </component>
   <component name="WindowStateProjectService">
     <state x="575" y="234" width="732" height="637" key="#Inspections" timestamp="1597716394566">
