@@ -17,7 +17,7 @@ class Role extends Model
     }
 
     public function routing() {
-        return $this->belongsToMany(Routing::class);
+        return $this->belongsToMany(Routings::class);
     }
 }
 

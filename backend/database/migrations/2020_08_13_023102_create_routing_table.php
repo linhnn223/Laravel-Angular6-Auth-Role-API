@@ -15,7 +15,9 @@ class CreateRoutingTable extends Migration
     {
         Schema::create('routing', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('router');
+            $table->string('type');
+            $table->string('status');
         });
     }
 

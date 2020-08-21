@@ -13,9 +13,10 @@ class CreateRoutingRoleTable extends Migration
      */
     public function up()
     {
-        Schema::create('routing_role', function (Blueprint $table) {
-            $table->integer('routing_id');
+        Schema::create('role_routings', function (Blueprint $table) {
+            $table->id();
             $table->integer('role_id');
+            $table->integer('routings_id');
         });
     }
 

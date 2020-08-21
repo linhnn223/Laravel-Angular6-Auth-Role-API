@@ -24,7 +24,7 @@ Route::post('update-user','AdminController@updateUser');
 Route::delete('delete-user/{id}','AdminController@deleteUser');
 
 //Routing Controller
-Route::post('routing/{id}','RoutingController@getRouting');
+Route::get('routing/{id}','RoutingController@getRouting');
 
 //auth Controller
 Route::post('login', 'AuthController@login');

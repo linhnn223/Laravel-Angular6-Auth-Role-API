@@ -4,14 +4,15 @@
 namespace App\Model;
 
 use App\Model\Role;
+use Illuminate\Database\Eloquent\Model;
 
-class Routing
+class Routings extends Model
 {
-    protected $table = 'routing';
+    protected $table = 'routings';
 
     protected $primaryKey="id";
 
-    public function user() {
+    public function roles() {
         return $this->belongsToMany(Role::class);
     }
 }

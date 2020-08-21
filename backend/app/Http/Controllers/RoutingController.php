@@ -4,7 +4,6 @@
 namespace App\Http\Controllers;
 
 use App\Repository\RoutingRepository;
-use App\Role;
 
 class RoutingController extends Controller
 {
@@ -15,8 +14,8 @@ class RoutingController extends Controller
         $this->routing = $routing;
     }
 
-    public function getRouting($role_id) {
-        $routing = Role::find($role_id)->name;
+    public function getRouting($id) {
+        $routing = $this->routing->getRoutingListById($id) ;
 
         return response()->json([
             'data' => $routing
