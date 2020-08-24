@@ -1,0 +1,17 @@
+<h2 class="text-center">User's Roles</h2>
+<span *ngIf = "roles.length !== 0; else show">
+  <ul *ngFor="let role of roles">
+    <li>{{role.roleName}}</li>
+  </ul>
+</span>
+<ng-template #show>
+  <h5 style="color: red">This user haven't been had any roles!</h5>
+</ng-template>
+
+
+<button class="btn btn-danger" (click)="addUserRoles()">Change Role</button>
+<button class="btn btn-danger" (click)="users()" style="margin-left: 1rem">Users</button>
+
+
+
+

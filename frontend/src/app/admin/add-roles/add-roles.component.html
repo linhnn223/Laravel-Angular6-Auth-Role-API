@@ -1,0 +1,15 @@
+<div class="col-md-7">
+  <h2 class="text-center">Add User's Roles</h2>
+  <br>
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <div class="form-group" *ngFor="let role of roles">
+      <input type="checkbox"
+             (change)="onChange(role.id, $event.target.checked)"
+      />
+       {{role.roleName}}
+      <br>
+    </div>
+    <button class="btn btn-danger">Add Role</button>
+  </form>
+
+</div>

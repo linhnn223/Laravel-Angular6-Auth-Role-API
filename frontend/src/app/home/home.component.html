@@ -1,0 +1,15 @@
+<h1>Home</h1>
+<div>
+  <p>Hello <b>{{users.name}}</b>!</p>
+</div>
+<p><a [routerLink]="['/login']">Logout</a></p>
+<table class="table table-striped" *ngFor="let roles of roles">
+  <tr>
+    <td>
+      <a href="{{roles.roleName}}">
+        {{roles.roleName}}
+      </a>
+    </td>
+  </tr>
+</table>
+
