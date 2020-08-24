@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9686c6e6-45fc-4f7a-82f6-1823d96f9973" name="Default Changelist" comment="update frontend">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +178,7 @@
       <workItem from="1597713349723" duration="23130000" />
       <workItem from="1597884913999" duration="28378000" />
       <workItem from="1597971681419" duration="27344000" />
+      <workItem from="1598231437865" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="update fr">
       <created>1598004245854</created>
