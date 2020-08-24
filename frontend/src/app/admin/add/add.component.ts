@@ -35,6 +35,9 @@ export class AddComponent implements OnInit {
     this.actionService.createUser(this.addForm.value)
       .subscribe( data => {
         this.route.navigate(['Admin']);
-      })
+      },
+        error => {
+          alert(error)
+        })
   }
 }
