@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9686c6e6-45fc-4f7a-82f6-1823d96f9973" name="Default Changelist" comment="update frontend">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9686c6e6-45fc-4f7a-82f6-1823d96f9973" name="Default Changelist" comment="update comment login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/admin/add/add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/admin/edit/edit.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +149,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../validator" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
@@ -186,7 +188,7 @@
       <workItem from="1598236990239" duration="19000" />
       <workItem from="1598237023331" duration="7000" />
       <workItem from="1598238217893" duration="1393000" />
-      <workItem from="1598241074529" duration="401000" />
+      <workItem from="1598241074529" duration="5525000" />
     </task>
     <task id="LOCAL-00001" summary="update fr">
       <created>1598004245854</created>
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598004964160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update comment login">
+      <created>1598241490992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598241490992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +242,8 @@
       <path value="$PROJECT_DIR$/frontend" />
     </ignored-roots>
     <MESSAGE value="update frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="update frontend" />
+    <MESSAGE value="update comment login" />
+    <option name="LAST_COMMIT_MESSAGE" value="update comment login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="575" y="234" width="732" height="637" key="#Inspections" timestamp="1597716394566">
@@ -249,11 +259,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1597993091216" />
-    <state x="372" y="297" width="374" height="484" key="FileChooserDialogImpl" timestamp="1598239609174">
+    <state x="372" y="297" width="374" height="484" key="FileChooserDialogImpl" timestamp="1598251529406">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/0.27.3840.1053@0.27.3840.1053" timestamp="1597647172569" />
-    <state x="372" y="297" width="374" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598239609174" />
+    <state x="372" y="297" width="374" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598251529406" />
     <state x="543" y="285" width="824" height="508" key="IDE.errors.dialog" timestamp="1597916447972">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -276,10 +286,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="500" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1597718204032" />
-    <state x="555" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598004780327">
+    <state x="555" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598241494026">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598004780327" />
+    <state x="555" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598241494026" />
     <state x="741" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598241474840">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

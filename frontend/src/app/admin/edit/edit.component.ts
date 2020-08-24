@@ -14,6 +14,8 @@ export class EditComponent implements OnInit {
   editForm: FormGroup;
   constructor(private formBuilder: FormBuilder, private router: Router, private userService: ActionService) {  }
 
+  submitted = false;
+
   ngOnInit() {
     let userId = localStorage.getItem("editUserId");
 
@@ -41,7 +43,15 @@ export class EditComponent implements OnInit {
       })
   }
 
+  get f() { return this.editForm.controls; }
+
   onSubmit() {
+    this.submitted = true;
+
+    if (this.editForm.invalid) {
+      return;
+    }
+
     this.userService.updateUser(this.editForm.value)
       .pipe(first())
       .subscribe(
